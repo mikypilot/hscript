@@ -1,0 +1,25 @@
+{
+	"name": "Playlist",
+	"author": "mikypilot",
+	"description": "Access Playlist outside US",
+	"site": "facebook.com/miky.pilot.7",
+	"icon": "none",
+	"unblocker_rules": {
+		"playlist": {
+			"description": "playlist.com unblocking rule",
+			"link": "playlist.com",
+			"root_url": [
+				"**.playlist.com"
+			],
+			"icon": "http://i.imgur.com/E5u8OPK.png",
+			"cmds": [
+				{
+					"hosts": [
+						"playlist.com"
+					],
+					"then": "PROXY US"
+				}
+			]
+		}
+	}
+}
